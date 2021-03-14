@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="roleUser">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/2_project_eCommerce_Laravel/roleUser.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

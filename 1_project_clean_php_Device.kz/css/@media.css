@@ -1,0 +1,7 @@
+@media screen and (max-width: 414px){
+	#header_top_menu{
+    width: 40%;
+    display: flex;
+    flex-direction: column;  
+}
+}

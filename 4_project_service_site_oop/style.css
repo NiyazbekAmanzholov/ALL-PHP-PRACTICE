@@ -1,0 +1,100 @@
+html {
+    overflow-y: scroll;
+    display: inline-block;
+    scroll-behavior: smooth;
+    padding-top: 1px;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.too,h2{
+	position: absolute;
+	color: white;
+	margin-top: 14%;
+	margin-left: 35%;
+	z-index: 1;
+}
+
+h2{
+	margin-top: 18%;
+	margin-left: 26%;
+	z-index: 1;
+}
+
+@media (min-width: 770px) {
+.nav2{
+	visibility: hidden;
+}
+}
+
+@media (max-width: 770px) {
+.nav1{
+	visibility: hidden;
+}
+
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 766px) {
+
+.too,h2{
+	margin-top: 110%;
+	margin-left: 20%;
+	font-size: 22px;
+}
+
+h2{
+	margin-top: 118%;
+	margin-left: 9%;
+	z-index: 1;
+	font-size: 15px;	
+}
+
+.nav1{
+	visibility: hidden;
+}
+
+
+.nav_menu{
+	font-size: 170%;
+	color: gray;
+	margin-left: 17%;
+	text-decoration: none;	
+}
+
+.about{
+	height: 1000px;
+}
+
+.services{
+	height: 2000px;	
+}
+
+.advantages{
+	height: 950px;
+}
+
+.contein{
+	width: 100%;
+	margin-left: 60px;
+}
+
+}
+
+
+
